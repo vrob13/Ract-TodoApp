@@ -1,0 +1,76 @@
+.TodoCounter {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  height: 7rem;
+  margin-top: 20px;
+}
+
+.perspective-text {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  height: 26rem;
+  }
+  
+  .perspective-line {
+    height: 50px;
+    width: 15rem;
+    font-weight: 700;
+    margin: auto;
+    padding: 0%;
+    border: 10px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    flex-wrap: wrap;
+  }
+  
+  .title_text {
+    margin: 0;
+    height: fit-content;
+    line-height: 50px;
+    transition: all 0.6s ease-in-out;
+    width: 100%;
+  }
+  
+  .perspective-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.667);
+  }
+  
+  .perspective-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.337);
+  }
+  
+  .perspective-text:hover p {
+    transform: translate(0, 50px);
+  }
+  
+  .perspective-line:nth-child(1) {
+    left: 29px;
+  }
+  
+  .perspective-line:nth-child(2) {
+    left: 58px;
+    
+    background: #468DFF;
+  }
+  
+  .perspective-line:nth-child(3) {
+    left: 87px;
+    background: green;
+  }
+  
+  .perspective-line:nth-child(4) {
+    left: 116px;
+    background: #FFB25F;
+  }
+  
+  .perspective-line:nth-child(5) {
+    left: 145px;
+  }
