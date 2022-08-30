@@ -1,6 +1,7 @@
 .TodoCounter {
   font-size: 24px;
   text-align: center;
+  align-items: center;
   margin: 0;
   height: 7rem;
   margin-top: 20px;
@@ -14,6 +15,7 @@
   letter-spacing: -2px;
   text-transform: uppercase;
   height: 26rem;
+  width: 80%;
   }
   
   .perspective-line {
@@ -21,7 +23,7 @@
     width: 15rem;
     font-weight: 700;
     margin: auto;
-    padding: 0%;
+    padding: 0rem;
     border: 10px;
     overflow: hidden;
     position: relative;
@@ -48,26 +50,25 @@
   }
   
   .perspective-text:hover p {
-    transform: translate(0, 50px);
+    transform: translate(0, -50px);
   }
   
   .perspective-line:nth-child(1) {
-    left: 29px;
+    left: 13px;
   }
   
   .perspective-line:nth-child(2) {
-    left: 58px;
-    
+    left: 29px;
     background: #468DFF;
   }
   
   .perspective-line:nth-child(3) {
-    left: 87px;
+    left: 59px;
     background: green;
   }
   
   .perspective-line:nth-child(4) {
-    left: 116px;
+    left: 90px;
     background: #FFB25F;
   }
   
